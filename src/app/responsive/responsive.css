@@ -1,0 +1,16 @@
+
+/*PHONE*/
+@media  screen and (max-width: 600px) {
+
+}
+
+/*TABLET*/
+@media screen and (min-width: 601px) and (max-width: 950px) {
+    /* conteúdo para telas entre 601px e 950px aqui */
+  }
+  
+  /* Para telas entre 951px e 1600px (laptops) */
+  @media screen and (min-width: 951px) and (max-width: 1600px) {
+    /* conteúdo para telas entre 951px e 1600px aqui */
+  }
+

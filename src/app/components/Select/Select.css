@@ -1,0 +1,11 @@
+.select {
+    padding: 10px 20px;
+    background: #ccc;
+    border: transparent;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgb(111, 105, 105);
+    opacity: 0.7;
+    border-radius: 5px;
+    margin-top: 3px;
+}

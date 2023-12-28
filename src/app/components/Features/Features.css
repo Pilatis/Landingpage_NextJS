@@ -1,0 +1,116 @@
+
+.container-features {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 11.25rem;
+    padding-right: 11.25rem;
+    padding-bottom: 255px;
+    
+}
+
+.h1-container-features {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 0.5em
+}
+
+.p-container-features {
+    font-size: 25px;
+    opacity: 0.7;
+    margin-bottom: 5rem
+}
+
+.h1-container-features,
+.p-container-features {
+    text-align: center;
+    width: 900px;
+    color: #fff
+}
+
+.features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+
+.feature {
+    max-width: 509px;
+    max-height: 347px;
+    width: 100%;
+    height: 100%;
+    padding: 32px 35px;
+    background: #ffffff;
+    border-radius: 5px;
+}
+
+.h1-card-feature {
+    font-size: 30px;
+    font-weight: bold;
+    color: #1e1d1d;
+    width: auto;
+    text-align: left;
+}
+
+.p-card-feature {
+    font-size: 17px;
+    color: #5c5656;
+    width: auto;
+    text-align: left;
+}
+
+@media  screen and (max-width: 600px) {
+    .container-features {
+        align-items: center;
+        padding: 1.5rem;
+        padding-bottom: 5rem
+    }
+
+    .h1-container-features {
+        font-size: 35px;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+
+    .p-container-features {
+        font-size: 18px;
+        margin-bottom: 2rem;
+    }
+
+    .h1-container-features,
+    .p-container-features {
+        width: auto;
+        color: #fff;
+    }
+
+    .features {
+        display: block;/*Mudando para a exibição de bloco*/
+    }
+
+    .feature {
+       max-width: none; /* Removendo largura máxima */
+       max-height: none;
+       width: auto; /* Ajustando a largura */
+       height: auto;
+       padding: 20px; /* Reduzindo o padding */
+       border-radius: 5px;
+       margin-bottom: 2rem;
+    }
+
+    .feature .icon {
+        width: 70px;
+        height: 80px;
+    }
+
+    .h1-card-feature {
+        font-size: 21px; /* Reduzindo o tamanho da fonte do título do cartão */
+         /* Centralizando texto */
+        margin-bottom: 0.5rem; /* Reduzindo margem inferior */
+    }
+
+    .p-card-feature {
+        font-size: 16px;
+        margin-bottom: 0.5rem
+    }
+}

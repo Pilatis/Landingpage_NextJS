@@ -1,0 +1,19 @@
+
+
+button {
+    padding: 10px;
+    border: 2.5px solid #fff;
+    color: #fff;
+    background: rgb(142, 202, 51);
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    width: 160px;
+    transition: 600ms;
+    cursor: pointer
+}
+
+button:hover {
+    background: rgb(166, 229, 71);
+    border: transparent;
+}

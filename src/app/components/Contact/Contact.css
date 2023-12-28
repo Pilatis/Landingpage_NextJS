@@ -1,0 +1,144 @@
+.container-contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0 11.25rem;
+    background-image: url('/images/fundoWelcome.svg');
+    height: 90vh;
+    margin-bottom: 200px;
+}
+
+.container-text-contact {
+    color: #fff
+}
+
+.container-text-contact span {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(20, 222, 20)
+}
+
+.container-text-contact h1 {
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.container-text-contact p {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+/*FORM*/
+.form {
+    padding: 38px 31px;
+    background: #fff;
+    margin: 35px;
+    border-radius: 10px;
+    border: 0.5px solid rgb(48, 224, 48);
+    margin-left: 3em;
+    
+}
+
+
+
+.form h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 30px;
+    font-weight: bold;
+    color: #383838
+}
+
+form {
+   display: grid;
+    gap: 16px;
+    
+}
+
+/*form input {
+    padding: 10px 20px;
+    background: #ccc;
+    border: transparent;
+    
+}*/
+
+
+
+.btn-form {
+    width: 100%;
+}
+
+.p-footer-text {
+    display: grid;
+    grid-column-start: 2;
+    
+    text-align: center;
+    margin-left: 3em;
+    margin-right: 2em;
+    background-color: #fff;
+    margin-bottom: 300px;
+    padding: 15px 30px;
+    border-radius: 10px;
+}
+
+.p-footer-text p {
+    opacity: 1;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.p-footer-text span {
+    font-weight: bold;
+    text-decoration-line: none;
+}
+
+
+@media  screen and (max-width: 600px) {
+    .container-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem;
+        height: auto;
+        margin-bottom: 5rem;
+    }
+
+    .container-text-contact span {
+        font-size: 18px;
+    }
+
+    .container-text-contact h1 {
+        font-size: 27px;
+
+    }
+
+    .container-text-contact p {
+        font-size: 16px;
+    }
+
+    .form {
+        margin-left: 0;
+        margin: 1rem auto;
+        max-width: 300px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .form h1 {
+        font-size: 20px;
+      }
+    
+      .p-footer-text {
+        margin-bottom: 2rem;
+      }
+    
+      .p-footer-text p {
+        font-size: 12px;
+      }
+
+}
+
+

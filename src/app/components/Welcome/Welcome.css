@@ -1,0 +1,80 @@
+.container-welcome {
+    background-image: url('/images/fundoWelcome.svg');
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    padding-left: 20px;
+    padding-right: 13px;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    padding-top: 80px;
+    padding: 0 4.25rem
+  }
+  
+  .content {
+   margin-top: 5em;
+    top: 20px; /* Distância do topo */
+    left: 20px; /* Distância da esquerda */
+    margin-top: 7em;
+    background: transparent;
+  }
+  
+  .image {
+    background-color: transparent;
+    top: 20px; /* Distância do topo */
+    right: 20px; /* Distância da direita */
+    margin-top: 5em;
+    margin-left: 1em;
+  }
+
+.text h1 {
+    font-weight: bold;
+    font-size: 60px;
+    margin-bottom: 0.5em;
+    color: rgb(255, 255, 255)
+}
+
+.text p {
+    font-size: 25px;
+    opacity: 0.8;
+    color: #fff
+}
+
+.btn {
+    margin-top: 1em;
+    margin-left: 10px;
+}
+
+@media  screen and (max-width: 600px) {
+  .container-welcome {
+    align-items: center; /* Centralizando itens verticalmente */
+    padding: 20px; /* Reduzindo o padding para telas menores */
+    box-sizing: border-box;
+    height: auto; /* Altura automática */
+    background-size: cover; /* Ajuste do tamanho da imagem de fundo */
+    text-align: center; /* Centralizando texto */
+  }
+
+  .content {
+    margin-top: 3em; /* Reduzindo a margem superior */
+  }
+
+  .text h1 {
+    font-size: 35px; /* Reduzindo o tamanho da fonte do título */
+  }
+
+  .text p {
+    font-size: 16px; /* Reduzindo o tamanho da fonte do parágrafo */
+  }
+
+  .btn {
+    margin-top: 0.5em; /* Reduzindo a margem do botão */
+    margin-left: 0; /* Removendo a margem esquerda */
+  }
+
+  .image {
+    display: none; /* Escondendo a imagem para telas menores */
+}
+
+}
