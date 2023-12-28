@@ -1,7 +1,7 @@
 
 import './Button.css'
 
-export default function Button({ title, kind }) {
+export default function Button({ title }) {
     
  
 
