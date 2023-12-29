@@ -28,7 +28,7 @@ export default function Contact() {
                     <Input  type="number" placeholder='Celular/Whatsapp' pattern='^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$' required />
                     <Input  type="text" placeholder='Site' required />
 
-                    <Select id="midia" placeholder="Orçamento para mídia" options={[
+                    <Select  placeholder="Orçamento para mídia" options={[
                         { label: "Instagram", value: "instagram" },
                         { label: "Facebook", value: "facebook" },
                         { label: "Linkedin", value: "linkedin" },
