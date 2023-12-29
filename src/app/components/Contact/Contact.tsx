@@ -23,10 +23,10 @@ export default function Contact() {
 
                 <h1>Fale com um especialista</h1>
                 <form>
-                    <Input id="name" type="text" placeholder='Nome completo' required />
-                    <Input id="email" type="email" placeholder='E-mail profissional' required />
-                    <Input id="phone" type="number" placeholder='Celular/Whatsapp' pattern='^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$' required />
-                    <Input id="website" type="text" placeholder='Site' required />
+                    <Input  type="text" placeholder='Nome completo' required />
+                    <Input  type="email" placeholder='E-mail profissional' required />
+                    <Input  type="number" placeholder='Celular/Whatsapp' pattern='^[+]*[(]{0,1}[0-9]{1,4}[)]{0,1}[-\s\./0-9]*$' required />
+                    <Input  type="text" placeholder='Site' required />
 
                     <Select id="midia" placeholder="Orçamento para mídia" options={[
                         { label: "Instagram", value: "instagram" },
