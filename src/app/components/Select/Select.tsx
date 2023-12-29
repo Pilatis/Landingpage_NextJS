@@ -1,9 +1,15 @@
 
 import './Select.css'
 
-export default function select({ placeholder, required, options }) {
+interface SelectProps {
+   placeholder: string;
+   required: boolean;
+    options: { label: string; value: string }[];
+}
 
+export default function select({ placeholder, required, options } : SelectProps) {
 
+    
     return (
         <select className="select" required={required}>
            <option value="">{placeholder}</option>
